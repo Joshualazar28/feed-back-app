@@ -6,6 +6,7 @@ const RatingSelect = ({ select }) => {
     setSelected(+e.currentTarget.value);
     select(+e.currentTarget.value);
   };
+
   return (
     <div>
       <ul className="rating">
@@ -38,7 +39,7 @@ const RatingSelect = ({ select }) => {
             value="3"
             onChange={Handlehange}
           />
-          <label htmlFor="num1">3</label>
+          <label htmlFor="num3">3</label>
         </li>
       </ul>
     </div>
